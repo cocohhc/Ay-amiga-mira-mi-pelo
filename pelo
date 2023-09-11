@@ -1,3 +1,44 @@
-# Ay-amiga-mira-mi-pelo
+<!DOCTYPE html>
+<link lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ay amiga mira mi pelo</title>   
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https: //fonts.googleapis.com/css2? familia= Noto+Sans+JP:wght@300;400 & display=swap">
+      
+    
+        
+        
+</head> 
 
-pelo
+<body>
+    <style>
+        .boton.uno::after { 
+          content: ""; 
+          width: 100%;
+          position: absolute;
+          z-index: 1;
+          top: 0;
+          left: calc(-100% - 80px);
+          border-bottom: 80px solid #286cff; 
+          border-left: 80px solid transparent; 
+          transition: .4s ease-in-out;
+          font-family: 'Roboto', sans-serif;
+        }
+          
+          .boton.uno:hover::after {
+          left: 0;
+          }
+        
+        </style>
+
+    <div class="contenedor">
+        <h1>Dale CLICK y recibirás una recompensa</h1>
+        <div class="contenedor-botones">
+          <a href="https://www.youtube.com/watch?v=EE-xtCF3T94" class="boton uno"><span>Dame Click!</span></a>
+        </div>
+
+   
+</body>
+</html>
